@@ -1,12 +1,12 @@
 # SQL Injection Detector (PoC)
 
-## 📌 Overview
+## Overview
 This is a beginner-friendly **Proof-of-Concept** tool for detecting **possible SQL Injection vulnerabilities** in web applications.
-**⚠️ Ethical Use Only** – test only on systems you own or have permission for (e.g., DVWA, Juice Shop).
+** Ethical Use Only** – test only on systems you own or have permission for (e.g., DVWA, Juice Shop).
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 - Python 3.x
 - Install dependencies:
 ```bash
@@ -15,7 +15,7 @@ pip install requests beautifulsoup4
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 1. Save the script as `sql_injection_detector.py`
 2. Open a terminal in the script folder.
 3. Run:
@@ -33,7 +33,7 @@ http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1
 
 ---
 
-## 🧪 Example Output
+## Example Output
 ```
 [+] Testing target: http://127.0.0.1/dvwa/vulnerabilities/sqli/?id=1
 
@@ -50,7 +50,7 @@ Response time: 0.34s
 
 ---
 
-## 🛡️ Prevention Tips
+## Prevention Tips
 - Always use **parameterized queries** / **prepared statements**
 - Validate & sanitize user input
 - Use ORM frameworks instead of raw SQL
